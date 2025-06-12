@@ -85,7 +85,7 @@ def game_play(words):
         # .lower() - it is useful so I leave it
         # .strip() - is useful to prevent unnecessary spaces from the beginning and end
 
-        # We also could use (try: except) - it is useful to prevent invalid input (if smth may happened), but it's unnecessary
+        # We also could use (try: except:) - it is useful to prevent invalid input (if smth may happened), but it's unnecessary
             # try:
             #     guess = input(f"Attempt {try_num + 1}/6 – Enter guess: ").lower().strip() 
             # except: 
